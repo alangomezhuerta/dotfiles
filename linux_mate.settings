@@ -1,0 +1,13 @@
+# This is not an rc file (yet), but goal is to track the most suitable 
+# settings that I have set to be aligned as close as possible to my
+# windows 10 desktop settings
+
+- Keyboard shortcuts
+	Ctrl+Mod4+left		Switch to the workspace on the left
+	Ctrl+Mod4+Right		Switch to the workspace on the right
+	Ctrl+Mod4+up		Switch to the workspace on the up
+	Ctrl+Mod4+down		Switch to the workspace on the down
+
+- Map F2+[hjkl]			Map to behave as arrow keys
+
+-
