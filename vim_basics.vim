@@ -25,7 +25,7 @@ imap <C-\> <Esc>
 " Additional mappings to : from normal mode
 " nnoremap : <space>
 nnoremap <space> :
-nnoremap ; :
+nnoremap \ :
 
 
 
