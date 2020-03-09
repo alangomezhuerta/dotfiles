@@ -1,5 +1,6 @@
 ":set number relativenumber
 :set nu rnu
+:nnoremap <F5> :set nu rnu!
 
 " remaps for an easier splits navigation
 nnoremap <C-J> <C-W><C-J>
@@ -14,17 +15,17 @@ set splitright
 " Press F4 to toggle highlighting on/off, and show current value
 :nnoremap <F4> :set hlsearch! hlsearch?
 
-" remap to allow Ctrl - ; as Esc:
-" imap <C-Space> <Esc>
+" Additional mappings to Esc
 imap <C-]> <Esc>
 imap <C-\> <Esc>
 
 "inoremap jk <Esc>
 "inoremap kj <Esc>
 
-" remap space bar to be used as : after Esc key
+" Additional mappings to : from normal mode
 " nnoremap : <space>
 nnoremap <space> :
+nnoremap ; :
 
 
 
