@@ -16,7 +16,6 @@ set splitright
 :nnoremap <F4> :set hlsearch! hlsearch?
 
 " Additional mappings to Esc
-imap <C-]> <Esc>
 imap <C-\> <Esc>
 
 "inoremap jk <Esc>
