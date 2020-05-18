@@ -1,0 +1,8 @@
+# This file should be copied in your home directory and renamed as .env
+# then you should call (source) it from your .bashrc, .profile, .zshrc
+# files
+
+
+
+# Update this variable with the path of your "do" directory
+export DO_DIR=/do
