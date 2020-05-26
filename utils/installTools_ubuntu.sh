@@ -9,13 +9,13 @@ main() {
 		echo "|Configuring $1 pack          |"
 		if [ $1 = "zsh" ]; then
 			zsh_pack
-		elif [ $i = "java" ]; then
+		elif [ $1 = "java" ]; then
 			java_pack
-		elif [ $i = "perl" ]; then
+		elif [ $1 = "perl" ]; then
 			perl_pack
-		elif [ $i = "python2" ]; then
+		elif [ $1 = "python2" ]; then
 			python2_pack
-		elif [ $i = "python3" ]; then 
+		elif [ $1 = "python3" ]; then 
 			python3_pack
 		else
 			echo "|No pack available for $i     |"
