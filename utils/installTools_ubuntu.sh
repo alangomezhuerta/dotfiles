@@ -16,11 +16,11 @@ main() {
 			python2_pack
 		elif [ $i = "python3" ]; then 
 			python3_pack
+		else
+			echo "No install pack available for $i"
 		fi
-		
 	fi
 	exit 0		
-
 }
 
 zsh_pack() {
