@@ -6,6 +6,7 @@ main() {
 		apt-get --yes install
 		apt-get --yes upgrade
 
+		echo "|Configuring $1 pack          |"
 		if [ $1 = "zsh" ]; then
 			zsh_pack
 		elif [ $i = "java" ]; then
@@ -17,7 +18,7 @@ main() {
 		elif [ $i = "python3" ]; then 
 			python3_pack
 		else
-			echo "No install pack available for $i"
+			echo "|No pack available for $i     |"
 		fi
 	fi
 	exit 0		
@@ -42,3 +43,13 @@ python2_pack() {
 python3_pack() {
 	sudo apt-get --yes install python3-pip  python3-pylint-django python3-pylint-flask python3-virtualenv python3-virtualenvwrapper
 }
+
+#---
+echo "+-----------------------------+"
+echo "|Starting configuration       |"
+echo "+-----------------------------+"
+main
+
+echo "+-----------------------------+"
+echo "|Configuration is finised     |"
+echo "+-----------------------------+"
