@@ -46,7 +46,7 @@ createDoDir() {
 
 installTools() {
 	apt-get --yes install net-tools curl wget tree vim mosh aptitude git tmux
-	curl -fLo /tmp/installTools_ubuntu.sh https://raw.githubusercontent.com/alangomezhuerta/dotfiles/master/utils/installTools_ubuntu.sh
+	curl -fLo /tmp/installTools_ubuntu.sh https://raw.githubusercontent.com/alangomezhuerta/dotfiles/master/utils/installToolsUbuntu.sh
 }
 
 sudoersAllow() {
