@@ -1,27 +1,31 @@
 #!/usr/bin/env bash
 
+i=""
 
 main() {
-	if [ $1 ]; then
-		apt-get --yes install
-		apt-get --yes upgrade
+	for i in zsh java perl python2 python3
+	do
+		tools
+	done
+}
 
-		echo "|Configuring $1 pack          |"
-		if [ $1 = "zsh" ]; then
-			zsh_pack
-		elif [ $1 = "java" ]; then
-			java_pack
-		elif [ $1 = "perl" ]; then
-			perl_pack
-		elif [ $1 = "python2" ]; then
-			python2_pack
-		elif [ $1 = "python3" ]; then 
-			python3_pack
-		else
-			echo "|No pack available for $i     |"
-		fi
+tools() {
+	apt-get --yes install
+	apt-get --yes upgrade
+	echo "|Configuring $i pack          |"
+	if [ $i = "zsh" ]; then
+		zsh_pack
+	elif [ $i = "java" ]; then
+		java_pack
+	elif [ $i = "perl" ]; then
+		perl_pack
+	elif [ $i = "python2" ]; then
+		python2_pack
+	elif [ $i = "python3" ]; then 
+		python3_pack
+	else
+		echo "|No pack available for $i     |"
 	fi
-	exit 0		
 }
 
 zsh_pack() {
@@ -53,3 +57,4 @@ main
 echo "+-----------------------------+"
 echo "|Configuration is finised     |"
 echo "+-----------------------------+"
+
