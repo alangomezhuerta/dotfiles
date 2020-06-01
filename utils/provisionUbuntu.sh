@@ -50,6 +50,7 @@ installTools() {
 	curl -flo /tmp/gitConfig.sh https://raw.githubusercontent.com/alangomezhuerta/dotfiles/master/utils/gitConfig.sh
 	curl -flo /tmp/zshConfig.sh https://raw.githubusercontent.com/alangomezhuerta/dotfiles/master/utils/zshConfig.sh
 	curl -flo /tmp/devopsEnvConfig.sh https://raw.githubusercontent.com/alangomezhuerta/dotfiles/master/utils/devopsEnvConfig.sh
+	curl -flo /tmp/sshConfig.sh https://raw.githubusercontent.com/alangomezhuerta/dotfiles/master/utils/sshConfig.sh
 }
 
 sudoersAllow() {
