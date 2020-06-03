@@ -75,6 +75,7 @@ ZSH_THEME="robbyrussell"
 plugins=(	ansible
 		aws
 		autopep8
+		autojump
 		command-not-found
 		common-aliases
 		cp

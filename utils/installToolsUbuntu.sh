@@ -29,7 +29,7 @@ tools() {
 }
 
 zsh_pack() {
-	sudo apt-get --yes install zsh fasd fd-find firewalld fzf git-extras httpie nmap ripgrep tig direnv
+	sudo apt-get --yes install zsh fasd fd-find firewalld fzf git-extras httpie nmap ripgrep tig direnv autojump
 }
 
 java_pack() {
