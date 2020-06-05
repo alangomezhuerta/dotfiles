@@ -41,11 +41,11 @@ perl_pack() {
 }
 
 python2_pack() {
-	sudo apt-get --yes install python pep8 python-pip python-pip-whl pylint pipenv virtualenv virtualenvwrapper
+	sudo apt-get --yes install python pep8 python-pip python-pip-whl pylint pipenv virtualenv virtualenvwrapper flake8
 }
 
 python3_pack() {
-	sudo apt-get --yes install python3-pip  python3-pylint-django python3-pylint-flask python3-virtualenv python3-virtualenvwrapper
+	sudo apt-get --yes install python3-pip  python3-pylint-django python3-pylint-flask python3-virtualenv python3-virtualenvwrapper python3-flake8 pylint
 }
 
 #---
