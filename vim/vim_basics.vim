@@ -39,8 +39,8 @@ set timeout timeoutlen=1000 ttimeoutlen=10
 
 
 " To keep your folding
-" autocmd BufWinLeave *.* mkview
-" autocmd BufWinEnter *.* silent loadview
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
 "
 
 " ========
