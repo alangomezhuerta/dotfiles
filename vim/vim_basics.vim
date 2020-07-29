@@ -52,6 +52,8 @@ Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
+
 
 " List end here. Plugins become visible after this call.
 call plug#end()
