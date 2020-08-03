@@ -5,7 +5,7 @@
 
 
 # Update this variable with the path of your "do" directory
-export DO_DIR=/do
+export DO_DIR=~/do
 
 # Environment variables for vagrant under WSL
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
