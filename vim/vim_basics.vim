@@ -1,6 +1,6 @@
 ":set number relativenumber
 :set nu rnu
-:nnoremap <F5> :set nu rnu!
+:nnoremap <space><space>n :set nu rnu!<Enter>
 
 " remaps for an easier splits navigation
 nnoremap <C-J> <C-W><C-J>
@@ -13,10 +13,12 @@ nnoremap <C-H> <C-W><C-H>
 " set splitright
 
 " Press F4 to toggle highlighting on/off, and show current value
-:nnoremap <F4> :set hlsearch! hlsearch?
+:nnoremap <space><space>s :set hlsearch! hlsearch?<Enter>
+
+
 
 " Additional mappings to Esc
-imap <C-\> <Esc>
+" imap <C-\> <Esc>
 
 " inoremap jk <Esc>
 " inoremap kj <Esc>
@@ -24,9 +26,9 @@ imap <C-\> <Esc>
 " Additional mappings to : from normal mode
 " nnoremap : <space>
 nnoremap <space> :
-" nnoremap \ :
 
-
+:nnoremap <space><space>b :Buffer<Enter>
+:nnoremap <space><space>f :Files<Enter>
 
 " remap Y to y$ to be consisten with C and D operators
 nnoremap Y y$
@@ -62,4 +64,4 @@ call plug#end()
 " Afteradding plugins , just reload it ( :source ~/.vimrc ) or restart vim
 " Now run :PlugInstall  to install plugins
 
-colorscheme seoul256
+" colorscheme seoul256
