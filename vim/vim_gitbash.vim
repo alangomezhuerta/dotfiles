@@ -30,7 +30,7 @@ if &term =~ 'xterm-256color'    " mintty identifies itself as xterm-compatible
   if &t_Co == 8
     set t_Co = 256              " Use at least 256 colors
   endif
-  " set termguicolors           " Uncomment to allow truecolors on mintty
+  set termguicolors           " Uncomment to allow truecolors on mintty
 endif
 "------------------------------------------------------------------------------
 " Only do this part when compiled with support for autocommands.

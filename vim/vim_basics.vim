@@ -15,16 +15,8 @@ nnoremap <C-H> <C-W><C-H>
 " Press F4 to toggle highlighting on/off, and show current value
 :nnoremap <space><space>s :set hlsearch! hlsearch?<Enter>
 
+:nnoremap <space><space>c :colorscheme 
 
-
-" Additional mappings to Esc
-" imap <C-\> <Esc>
-
-" inoremap jk <Esc>
-" inoremap kj <Esc>
-
-" Additional mappings to : from normal mode
-" nnoremap : <space>
 nnoremap <space> :
 
 :nnoremap <space><space>b :Buffer<Enter>
@@ -64,4 +56,4 @@ call plug#end()
 " Afteradding plugins , just reload it ( :source ~/.vimrc ) or restart vim
 " Now run :PlugInstall  to install plugins
 
-" colorscheme seoul256
+colorscheme seoul256
