@@ -56,4 +56,4 @@ call plug#end()
 " Afteradding plugins , just reload it ( :source ~/.vimrc ) or restart vim
 " Now run :PlugInstall  to install plugins
 
-colorscheme seoul256
+"colorscheme seoul256
