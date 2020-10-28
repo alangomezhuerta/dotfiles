@@ -122,6 +122,7 @@ plugins=(	ansible
 		pylint
 		python
 		ripgrep
+		screen
 		rsync
 		svcat
 		systemadmin
