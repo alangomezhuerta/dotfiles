@@ -49,6 +49,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'w0rp/ale'
 Plug 'tpope/vim-fugitive'
+Plug 'tomasr/molokai'
+Plug 'alangomezhuerta/molokai-dark'
+Plug 'wimstefan/Lightning'
 
 " List end here. Plugins become visible after this call.
 call plug#end()
@@ -56,4 +59,5 @@ call plug#end()
 " Afteradding plugins , just reload it ( :source ~/.vimrc ) or restart vim
 " Now run :PlugInstall  to install plugins
 
-colorscheme seoul256
+colorscheme molokai-dark
+
