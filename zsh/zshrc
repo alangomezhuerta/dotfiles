@@ -122,6 +122,7 @@ plugins=(	ansible
 		pylint
 		python
 		ripgrep
+		screen
 		rsync
 		svcat
 		systemadmin
@@ -168,3 +169,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias els='exa'
+alias ell='exa -l'
+alias ela='exa -la'
