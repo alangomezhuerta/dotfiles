@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.emacs.d/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/alan/.oh-my-zsh"
@@ -94,7 +95,7 @@ plugins=(	ansible
 		extract
 		fabric
 		fancy-ctrl-z
-		fd
+		#fd
 		firewalld
 		frontend-search
 		fzf
