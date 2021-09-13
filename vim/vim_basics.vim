@@ -53,6 +53,8 @@
 	Plug 'alangomezhuerta/molokai-dark'
 	Plug 'wimstefan/Lightning'
 	Plug 'gosukiwi/vim-atom-dark'
+	Plug 'wadackel/vim-dogrun'
+	Plug 'arcticicestudio/nord-vim'
 
 " List end here. Plugins become visible after this call.
 call plug#end()
