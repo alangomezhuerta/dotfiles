@@ -55,6 +55,10 @@
 	Plug 'gosukiwi/vim-atom-dark'
 	Plug 'wadackel/vim-dogrun'
 	Plug 'arcticicestudio/nord-vim'
+	Plug 'gregsexton/Atom'
+	Plug 'sonph/onehalf'
+	Plug 'endel/vim-github-colorscheme'
+
 
 " List end here. Plugins become visible after this call.
 call plug#end()
@@ -62,5 +66,5 @@ call plug#end()
 " Afteradding plugins , just reload it ( :source ~/.vimrc ) or restart vim
 " Now run :PlugInstall  to install plugins
 
-colorscheme seoul256
+colorscheme nord
 
