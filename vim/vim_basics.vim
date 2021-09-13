@@ -58,6 +58,7 @@
 	Plug 'gregsexton/Atom'
 	Plug 'sonph/onehalf'
 	Plug 'endel/vim-github-colorscheme'
+	Plug 'dempfi/ayu'
 
 
 " List end here. Plugins become visible after this call.
