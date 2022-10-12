@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.backup; fiif [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.backup; fiif [ -f ~/.env ]; then mv ~/.env ~/.env.backup; fi#!/usr/bin/env bash
 do_dir (){
 	if [ ! -d ~/do ]; then mkdir ~/do; fi
 	cd ~/do
@@ -15,7 +15,7 @@ backup_config (){
         if [ -f ~/.env ]; then mv ~/.env ~/.env.backup; fi
         if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.backup; fi
         if [ -d ~/.vim ]; then mv ~/.vim ~/.vim.backup; fi
-        if [ -f ~/.zshrc ]; then mv ~/.zshrc ~./zshrc.backup; fi
+        if [ -f ~/.zshrc ]; then mv ~/.zshrc ~/.zshrc.backup; fi
         if [ -f ~/.tmux.conf ]; then mv ~/.tmux.conf ~/.tmux.conf.backup; fi
 }
 
@@ -26,7 +26,7 @@ set_config (){
         ln -s ~/do/dotfiles/vim/vimrc ~/.vimrc
 	# Set vim plugged
         mkdir ~/.vim && mkdir ~/.vim/autoload ~/.vim/plugged 
-        curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.viml
+        curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	# Set zsh
         ln -s ~/do/dotfiles/zsh/zshrc ~/.zshrc
 	# Set tmux
