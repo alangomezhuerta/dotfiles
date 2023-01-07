@@ -96,7 +96,7 @@ plugins=(	ansible
 		extract
 		fabric
 		fancy-ctrl-z
-		#fd
+		fd
 		firewalld
 		frontend-search
 		fzf
@@ -174,3 +174,6 @@ source $ZSH/oh-my-zsh.sh
 alias els='exa'
 alias ell='exa -l'
 alias ela='exa -la'
+
+# Emacs daemon
+emacs --daemon
