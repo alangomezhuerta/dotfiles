@@ -67,5 +67,5 @@ call plug#end()
 " Afteradding plugins , just reload it ( :source ~/.vimrc ) or restart vim
 " Now run :PlugInstall  to install plugins
 
-colorscheme nord
+colorscheme molokai
 

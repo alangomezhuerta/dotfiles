@@ -176,4 +176,4 @@ alias ell='exa -l'
 alias ela='exa -la'
 
 # Emacs daemon
-emacs --daemon
+#emacs --daemon
