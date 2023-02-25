@@ -1,4 +1,9 @@
-if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.backup; fiif [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.backup; fiif [ -f ~/.env ]; then mv ~/.env ~/.env.backup; fi#!/usr/bin/env bash
+#!/usr/bin/env bash
+
+if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.backup; fi
+if [ -f ~/.env ]; then mv ~/.env ~/.env.backup; fi
+
+
 do_dir (){
 	if [ ! -d ~/do ]; then mkdir ~/do; fi
 	cd ~/do
