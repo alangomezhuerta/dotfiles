@@ -174,6 +174,7 @@ source $ZSH/oh-my-zsh.sh
 alias els='exa'
 alias ell='exa -l'
 alias ela='exa -la'
+alias kubectl="minikube kubectl --"
 
 # Emacs daemon
 #emacs --daemon
